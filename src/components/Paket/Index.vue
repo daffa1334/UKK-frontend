@@ -96,7 +96,7 @@ export default {
     var data = JSON.parse(this.$store.state.datauser)
         var level = data.level
 
-        if(level == 'kasir' || level == 'owner')
+        if(level == 'owner')
         {
             this.$swal("Error","Anda tidak dapat mengakses halaman ini","error")
             this.$router.push('/')

@@ -53,7 +53,7 @@
     </li>
 
     <!-- Nav Item - Paket -->
-    <li v-if="isAdmin" class="nav-item">
+    <li v-if="isAdmin " class="nav-item">
       <router-link to="/paket" class="nav-link" href="index.html">
         <i class="fas fa-search"></i>
         <span>Paket</span>

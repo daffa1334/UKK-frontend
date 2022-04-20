@@ -118,6 +118,8 @@ export default {
                           this.$swal("Sukses", res.data.message, "success")
                         //this.getData()
                         }
+                        }).catch(() =>{
+                          this.$swal("Gagal", "Gagal menghapus data outlet", "error")
                     })
                } else {
                    this.$swal({
